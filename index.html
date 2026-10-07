@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Disha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Digital Disha</div>
+
+    <nav>
+        <a href="index.html" data-en="Home" data-mr="मुख्यपृष्ठ">Home</a>
+        <a href="topics.html" data-en="Topics" data-mr="विषय">Topics</a>
+        <a href="survey.html" data-en="Survey" data-mr="सर्वेक्षण">Survey</a>
+    </nav>
+
+    <div class="language-buttons">
+        <button onclick="changeLanguage('en')" id="englishBtn">English</button>
+        <button onclick="changeLanguage('mr')" id="marathiBtn">मराठी</button>
+    </div>
+</header>
+
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <p class="small-title"
+           data-en="DIGITAL LITERACY FOR SENIOR CITIZENS"
+           data-mr="ज्येष्ठ नागरिकांसाठी डिजिटल साक्षरता">
+            DIGITAL LITERACY FOR SENIOR CITIZENS
+        </p>
+
+        <h1
+            data-en="Learn Digital Skills Easily and Safely"
+            data-mr="डिजिटल कौशल्ये सोप्या आणि सुरक्षित पद्धतीने शिका">
+            Learn Digital Skills Easily and Safely
+        </h1>
+
+        <p
+            data-en="A simple bilingual website created to help senior citizens understand everyday digital services."
+            data-mr="दररोज वापरल्या जाणाऱ्या डिजिटल सेवांबद्दल ज्येष्ठ नागरिकांना सोप्या पद्धतीने समजून घेण्यासाठी तयार केलेली द्विभाषिक वेबसाइट.">
+            A simple bilingual website created to help senior citizens understand everyday digital services.
+        </p>
+
+        <a href="topics.html" class="main-button"
+           data-en="Start Learning"
+           data-mr="शिकायला सुरुवात करा">
+            Start Learning
+        </a>
+
+    </div>
+
+    <div class="hero-card">
+        <div class="phone-icon">📱</div>
+
+        <h3
+            data-en="Simple • Safe • Easy"
+            data-mr="सोपे • सुरक्षित • सहज">
+            Simple • Safe • Easy
+        </h3>
+
+        <p
+            data-en="Learn step by step with pictures and simple explanations."
+            data-mr="चित्रे आणि सोप्या स्पष्टीकरणाद्वारे प्रत्येक गोष्ट टप्प्याटप्प्याने शिका.">
+            Learn step by step with pictures and simple explanations.
+        </p>
+    </div>
+
+</section>
+
+
+<section class="language-section">
+
+    <h2
+        data-en="Choose Your Language"
+        data-mr="तुमची भाषा निवडा">
+        Choose Your Language
+    </h2>
+
+    <p
+        data-en="Choose the language in which you want to learn."
+        data-mr="तुम्हाला ज्या भाषेत शिकायचे आहे ती भाषा निवडा.">
+        Choose the language in which you want to learn.
+    </p>
+
+    <div class="big-language-buttons">
+
+        <button onclick="changeLanguage('en')">
+            🇬🇧 English
+        </button>
+
+        <button onclick="changeLanguage('mr')">
+            🇮🇳 मराठी
+        </button>
+
+    </div>
+
+</section>
+
+
+<section class="why-section">
+
+    <h2
+        data-en="Why Did We Choose This Topic?"
+        data-mr="आम्ही हा विषय का निवडला?">
+        Why Did We Choose This Topic?
+    </h2>
+
+    <p
+        data-en="We conducted a community survey to understand the difficulties people face while using smartphones and digital services. The responses helped us identify the digital skills that people wanted to learn."
+        data-mr="स्मार्टफोन आणि डिजिटल सेवा वापरताना लोकांना कोणत्या अडचणी येतात हे समजून घेण्यासाठी आम्ही समुदाय सर्वेक्षण केले. या प्रतिसादांमुळे लोकांना कोणती डिजिटल कौशल्ये शिकायची आहेत हे समजण्यास आम्हाला मदत झाली.">
+        We conducted a community survey to understand the difficulties people face while using smartphones and digital services. The responses helped us identify the digital skills that people wanted to learn.
+    </p>
+
+    <div class="reason-cards">
+
+        <div class="reason-card">
+            <span>📱</span>
+            <h3
+                data-en="Smartphone Use"
+                data-mr="स्मार्टफोन वापर">
+                Smartphone Use
+            </h3>
+        </div>
+
+        <div class="reason-card">
+            <span>💳</span>
+            <h3
+                data-en="Digital Payments"
+                data-mr="डिजिटल पेमेंट">
+                Digital Payments
+            </h3>
+        </div>
+
+        <div class="reason-card">
+            <span>🔐</span>
+            <h3
+                data-en="Digital Safety"
+                data-mr="डिजिटल सुरक्षितता">
+                Digital Safety
+            </h3>
+        </div>
+
+        <div class="reason-card">
+            <span>💬</span>
+            <h3
+                data-en="Communication"
+                data-mr="संवाद">
+                Communication
+            </h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="topics-preview">
+
+    <h2
+        data-en="What You Can Learn"
+        data-mr="तुम्ही काय शिकू शकता">
+        What You Can Learn
+    </h2>
+
+    <div class="topic-grid">
+
+        <a href="upi.html" class="topic-card">
+            <div class="topic-icon">💳</div>
+            <h3>UPI / Google Pay</h3>
+            <p
+                data-en="Learn how to make a UPI payment safely."
+                data-mr="UPI पेमेंट सुरक्षितपणे कसे करायचे ते शिका.">
+                Learn how to make a UPI payment safely.
+            </p>
+        </a>
+
+
+        <a href="whatsapp.html" class="topic-card">
+            <div class="topic-icon">💬</div>
+            <h3>WhatsApp Basics</h3>
+            <p
+                data-en="Learn video calls, images, documents and live location."
+                data-mr="व्हिडिओ कॉल, फोटो, कागदपत्रे आणि Live Location शिकणे.">
+                Learn video calls, images, documents and live location.
+            </p>
+        </a>
+
+
+        <a href="safety.html" class="topic-card">
+            <div class="topic-icon">🔐</div>
+            <h3
+                data-en="Digital Safety"
+                data-mr="डिजिटल सुरक्षितता">
+                Digital Safety
+            </h3>
+            <p
+                data-en="Learn how to stay safe from scams and suspicious links."
+                data-mr="फसवणूक आणि संशयास्पद लिंकपासून सुरक्षित कसे राहायचे ते शिका.">
+                Learn how to stay safe from scams and suspicious links.
+            </p>
+        </a>
+
+
+        <a href="updates.html" class="topic-card">
+            <div class="topic-icon">🔄</div>
+            <h3
+                data-en="App Updates"
+                data-mr="ॲप अपडेट्स">
+                App Updates
+            </h3>
+            <p
+                data-en="Learn why and how to update mobile applications."
+                data-mr="मोबाईल ॲप अपडेट का आणि कसे करायचे ते शिका.">
+                Learn why and how to update mobile applications.
+            </p>
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <h3>Digital Disha</h3>
+
+    <p
+        data-en="Digital Literacy Community Engagement Project"
+        data-mr="डिजिटल साक्षरता समुदाय सहभाग प्रकल्प">
+        Digital Literacy Community Engagement Project
+    </p>
+
+    Created by Sakshi Vijay Awale 
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
